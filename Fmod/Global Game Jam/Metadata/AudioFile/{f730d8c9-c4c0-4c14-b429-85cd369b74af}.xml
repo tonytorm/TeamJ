@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f730d8c9-c4c0-4c14-b429-85cd369b74af}">
+		<property name="assetPath">
+			<value>Enemy/Footsteps/Armour/Light Armor Concrete Walking 2_09.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.167142857142857</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e675d11-df3a-4cef-a680-1e4f550c99fe}</destination>
+		</relationship>
+	</object>
+</objects>

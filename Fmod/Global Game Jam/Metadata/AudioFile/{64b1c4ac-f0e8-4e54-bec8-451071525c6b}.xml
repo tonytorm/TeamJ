@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{64b1c4ac-f0e8-4e54-bec8-451071525c6b}">
+		<property name="assetPath">
+			<value>Enemy/Footsteps/Grass/grass step (4).ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.32604166666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e675d11-df3a-4cef-a680-1e4f550c99fe}</destination>
+		</relationship>
+	</object>
+</objects>
