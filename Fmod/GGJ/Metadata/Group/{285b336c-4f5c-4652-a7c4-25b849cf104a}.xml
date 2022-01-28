@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{285b336c-4f5c-4652-a7c4-25b849cf104a}">
+		<property name="volume">
+			<value>-16</value>
+		</property>
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<property name="maxInstances">
+			<value>1</value>
+		</property>
+		<property name="instanceStealing">
+			<value>3</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{87bd85ec-bd9f-45ba-8e7b-7ace1abe2581}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e7858b53-acf8-428e-9dd8-6ed3fb418f7e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8a6a601a-099b-49a9-85a0-34f6c5b33200}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{87bd85ec-bd9f-45ba-8e7b-7ace1abe2581}">
+		<relationship name="effects">
+			<destination>{73beb058-e785-4adb-9b52-c01ab763dc34}</destination>
+			<destination>{fe7114e5-bbf9-43c9-927e-9f4bde55b37b}</destination>
+			<destination>{b3cde76e-7da8-4015-8d82-61bec0aff5fb}</destination>
+			<destination>{d33a098d-bbc9-40f6-87b5-307589d06ab4}</destination>
+			<destination>{98b5cfd9-1833-4908-9838-87c20974c196}</destination>
+			<destination>{f8efe5b8-ffc6-4ea2-b38c-deab03b707b4}</destination>
+			<destination>{76daee68-3f86-47f9-b3d1-963dc902ea9c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e7858b53-acf8-428e-9dd8-6ed3fb418f7e}" />
+	<object class="ThreeEQEffect" id="{73beb058-e785-4adb-9b52-c01ab763dc34}">
+		<property name="midGain">
+			<value>-3.5</value>
+		</property>
+		<property name="highGain">
+			<value>-0.5</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{fe7114e5-bbf9-43c9-927e-9f4bde55b37b}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-18</value>
+		</property>
+		<property name="ratio">
+			<value>3.29999995</value>
+		</property>
+		<property name="attackTime">
+			<value>4.20000029</value>
+		</property>
+		<property name="releaseTime">
+			<value>56</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{9e13058c-2c52-4f0f-98ec-73d3028b19c0}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{b3cde76e-7da8-4015-8d82-61bec0aff5fb}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-22.5</value>
+		</property>
+		<property name="attackTime">
+			<value>5.4000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>96</value>
+		</property>
+		<property name="gain">
+			<value>-2.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{d33a098d-bbc9-40f6-87b5-307589d06ab4}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-19</value>
+		</property>
+		<property name="ratio">
+			<value>3.5</value>
+		</property>
+		<property name="attackTime">
+			<value>8.60000038</value>
+		</property>
+		<property name="releaseTime">
+			<value>140</value>
+		</property>
+		<property name="gain">
+			<value>8.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{fde2786e-9100-407a-bc63-b080977444a5}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{98b5cfd9-1833-4908-9838-87c20974c196}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-21.5</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{b6391b4d-67f5-4ec6-9232-8cd07603516f}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{f8efe5b8-ffc6-4ea2-b38c-deab03b707b4}">
+		<property name="filterTypeA">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>15792.5127</value>
+		</property>
+		<property name="qualityA">
+			<value>0.623275876</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{76daee68-3f86-47f9-b3d1-963dc902ea9c}" />
+</objects>

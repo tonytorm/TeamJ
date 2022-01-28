@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{308072ff-0db2-4b95-abde-3db1daeabe87}">
+		<property name="name">
+			<value>Jump n Land</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0c7d564-4bc8-493a-b628-95d637b1b1f1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d7cd9581-8897-4c74-a240-9a65b3502c25}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d7cd9581-8897-4c74-a240-9a65b3502c25}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Jump</value>
+			<value>Land</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

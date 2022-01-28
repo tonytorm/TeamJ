@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{bf73fc2f-e0af-426b-a809-51a4dd9be105}">
+		<property name="name">
+			<value>Goblins</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{22c047cd-6e54-468e-a72f-dc30c5c40102}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{345d28db-d924-4b2b-b0b7-b0915b73e474}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d570c0e6-2d90-45fa-8d3d-514fb8cfa3fd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{22c047cd-6e54-468e-a72f-dc30c5c40102}">
+		<relationship name="effects">
+			<destination>{77ffc7f4-ae56-49da-9061-269d187dc0f5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{345d28db-d924-4b2b-b0b7-b0915b73e474}" />
+	<object class="MixerBusFader" id="{77ffc7f4-ae56-49da-9061-269d187dc0f5}" />
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Mixer" id="{17600d38-b82d-42f2-9236-c3299045d66b}">
+		<relationship name="vca">
+			<destination>{06d885e6-0556-4d1a-a7fb-4a9e8f1dff8d}</destination>
+			<destination>{a2173ad7-78bc-4943-8118-e4bc5a8c1ea7}</destination>
+			<destination>{88de026e-62e0-4017-b0d3-b7b7da94c8f5}</destination>
+			<destination>{b8386a77-5ff3-4962-b1c0-1f2c359a6901}</destination>
+			<destination>{fd2346fc-2598-48b2-98e7-94cc2b6ff815}</destination>
+			<destination>{3962b390-0fac-4364-968a-f8a622b32fd5}</destination>
+			<destination>{19baf016-4a79-4376-ad92-139ef7f364e6}</destination>
+			<destination>{74e7f4af-b10e-407c-8080-5887d1336b51}</destination>
+			<destination>{2d1cf709-9457-4ed5-b01f-457c7c5a6a42}</destination>
+			<destination>{57425d6d-1876-46fe-a0e7-866c3ececafc}</destination>
+			<destination>{9904a5b8-6857-4c71-98d2-58343aa93119}</destination>
+			<destination>{407e89da-6a3e-4673-bb3e-3927e572a469}</destination>
+		</relationship>
+	</object>
+</objects>

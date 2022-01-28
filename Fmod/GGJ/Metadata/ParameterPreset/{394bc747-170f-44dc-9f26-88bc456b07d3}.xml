@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{394bc747-170f-44dc-9f26-88bc456b07d3}">
+		<property name="name">
+			<value>Chill</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0c7d564-4bc8-493a-b628-95d637b1b1f1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a7218f0e-bdc4-477a-8d07-390ce5190e96}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a7218f0e-bdc4-477a-8d07-390ce5190e96}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

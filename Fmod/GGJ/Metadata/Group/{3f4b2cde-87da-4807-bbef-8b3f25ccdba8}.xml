@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{3f4b2cde-87da-4807-bbef-8b3f25ccdba8}">
+		<property name="name">
+			<value>Orks</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fb18272f-8a25-43be-86a8-fbb419b662e2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ba7bb353-f103-41d5-8ac0-39d83bcbac37}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d570c0e6-2d90-45fa-8d3d-514fb8cfa3fd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{fb18272f-8a25-43be-86a8-fbb419b662e2}">
+		<relationship name="effects">
+			<destination>{b7d6fa01-85e6-4cdf-89c5-cb54bba8d954}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ba7bb353-f103-41d5-8ac0-39d83bcbac37}" />
+	<object class="MixerBusFader" id="{b7d6fa01-85e6-4cdf-89c5-cb54bba8d954}" />
+</objects>

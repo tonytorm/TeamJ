@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{042c7631-afcc-40ac-b35f-c1278fc6a3ce}">
+		<property name="assetPath">
+			<value>Player Sounds/Footsteps/Concrete/Stone_Walk_01.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.36195833333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfca66db-97a1-4ab1-86fa-2dc1a6c6044c}</destination>
+		</relationship>
+	</object>
+</objects>

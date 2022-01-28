@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{8a6a601a-099b-49a9-85a0-34f6c5b33200}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5760b9fd-4e15-4f98-b953-64fac5c5b12b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6ac5f194-eea0-4ac2-a4b3-f7139503995c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5acee7e4-d96f-4b12-8cab-c43b8d4dc79f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5760b9fd-4e15-4f98-b953-64fac5c5b12b}">
+		<relationship name="effects">
+			<destination>{c06f005c-b23f-46de-95b3-2cb5487977b4}</destination>
+			<destination>{912a6e68-a6dd-47fc-9103-83c997f24a72}</destination>
+			<destination>{c3b98850-5072-4263-a965-3dd0546e6d9d}</destination>
+			<destination>{58b3c662-a76d-4561-a30b-074b43856219}</destination>
+			<destination>{b6a510ff-b450-44c6-b534-8b5d460e1ccf}</destination>
+			<destination>{9844fded-ed60-4338-b425-8bdacbc6afcf}</destination>
+			<destination>{657334c4-567e-4ede-9cfc-91dd22ab9b5c}</destination>
+			<destination>{709f1b5e-b099-472f-a08b-b339a932eeaf}</destination>
+			<destination>{a161ba3a-e459-4924-ba83-b455ea78bb87}</destination>
+			<destination>{7dcc5499-c1b8-4d04-bc0b-f6f8c9bdb1ed}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6ac5f194-eea0-4ac2-a4b3-f7139503995c}" />
+	<object class="GainEffect" id="{c06f005c-b23f-46de-95b3-2cb5487977b4}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{912a6e68-a6dd-47fc-9103-83c997f24a72}">
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{c3b98850-5072-4263-a965-3dd0546e6d9d}">
+		<property name="gain">
+			<value>3.5</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{58b3c662-a76d-4561-a30b-074b43856219}">
+		<property name="gain">
+			<value>2.5</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{b6a510ff-b450-44c6-b534-8b5d460e1ccf}">
+		<property name="gain">
+			<value>6.5</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{9844fded-ed60-4338-b425-8bdacbc6afcf}">
+		<property name="boost">
+			<value>12</value>
+		</property>
+		<property name="ceiling">
+			<value>-12</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{657334c4-567e-4ede-9cfc-91dd22ab9b5c}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{709f1b5e-b099-472f-a08b-b339a932eeaf}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{a161ba3a-e459-4924-ba83-b455ea78bb87}" />
+	<object class="LoudnessMeter" id="{7dcc5499-c1b8-4d04-bc0b-f6f8c9bdb1ed}">
+		<property name="loudnessTarget">
+			<value>-24</value>
+		</property>
+	</object>
+</objects>
