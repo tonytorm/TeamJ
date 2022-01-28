@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{5408c788-7bc5-4191-a567-92f83405ae19}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>Magic</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5c9b4cdb-8fbe-49d3-97fc-58c6ab771fff}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{21d3024f-daa0-4b71-9070-85b986018663}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ea543961-4f27-4bd8-ade6-372a223f5bc0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5c9b4cdb-8fbe-49d3-97fc-58c6ab771fff}">
+		<relationship name="effects">
+			<destination>{bb4a9842-0393-48f1-b0f3-14ebc64f782a}</destination>
+			<destination>{b6391b4d-67f5-4ec6-9232-8cd07603516f}</destination>
+			<destination>{bef63acc-8792-4e01-a288-c7545f9566b6}</destination>
+			<destination>{b5ded2fe-85d8-40af-ac8c-669c6f709f02}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{21d3024f-daa0-4b71-9070-85b986018663}" />
+	<object class="MixerBusFader" id="{bb4a9842-0393-48f1-b0f3-14ebc64f782a}" />
+	<object class="Sidechain" id="{b6391b4d-67f5-4ec6-9232-8cd07603516f}" />
+	<object class="GainEffect" id="{bef63acc-8792-4e01-a288-c7545f9566b6}" />
+	<object class="LimiterEffect" id="{b5ded2fe-85d8-40af-ac8c-669c6f709f02}" />
+</objects>

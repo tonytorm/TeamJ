@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Platform" id="{19f19031-5bfe-4a44-a9f5-571d92ebdaa4}">
+		<property name="hardwareType">
+			<value>5</value>
+		</property>
+		<property name="name">
+			<value>PlayStation 4</value>
+		</property>
+		<property name="subDirectory">
+			<value>PS4</value>
+		</property>
+		<property name="speakerFormat">
+			<value>5</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{046c77d8-72d5-48d9-8f63-9fa44408ae1c}">
+		<property name="name">
+			<value>SfxReverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ed6f1065-729f-4afd-9ecd-a478e10575f5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3f46b6c5-c31a-434f-b188-248a00420c7b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ea543961-4f27-4bd8-ade6-372a223f5bc0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ed6f1065-729f-4afd-9ecd-a478e10575f5}">
+		<relationship name="effects">
+			<destination>{316b0911-c58f-4a0a-a4c5-09f91e7ef000}</destination>
+			<destination>{1612d1a8-083a-4b6f-9c74-b2177569d7a3}</destination>
+			<destination>{81e8f39a-f259-4929-bbd7-21a80dc2dbc1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3f46b6c5-c31a-434f-b188-248a00420c7b}" />
+	<object class="ThreeEQEffect" id="{316b0911-c58f-4a0a-a4c5-09f91e7ef000}" />
+	<object class="MixerBusFader" id="{1612d1a8-083a-4b6f-9c74-b2177569d7a3}" />
+	<object class="MixerSend" id="{81e8f39a-f259-4929-bbd7-21a80dc2dbc1}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{85b17907-da16-46ff-b9b1-96dea4c68efc}</destination>
+		</relationship>
+	</object>
+</objects>

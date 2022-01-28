@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{cc167b3c-0c9a-4175-ad11-dfebd68bca73}">
+		<property name="name">
+			<value>AmbEvolve</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0c7d564-4bc8-493a-b628-95d637b1b1f1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{78447e17-2954-441e-831f-3ef8d75e7d50}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{78447e17-2954-441e-831f-3ef8d75e7d50}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MasterTagFolder" id="{65973e3f-09c0-47b8-bb44-d4c8061cad56}">
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="items">
+			<destination>{3119fbea-d7c5-4423-a0ee-700a3da1623e}</destination>
+			<destination>{647c3cec-8f8b-4cf2-a604-f7f030f1bb62}</destination>
+			<destination>{ddf113f8-9d8b-4678-80b2-0d60eb0aa182}</destination>
+			<destination>{dbf607b0-6c1c-421a-8413-41adda5ae91f}</destination>
+			<destination>{7373ff94-ca29-4cf7-bd63-5f5a5763d649}</destination>
+			<destination>{ca19d12c-aafa-4700-afc3-a3cdf19a75e9}</destination>
+			<destination>{9172293b-c636-4c52-b8e5-b775e10002a7}</destination>
+			<destination>{f9b747c8-4e79-400b-b996-69d2c99a0c60}</destination>
+			<destination>{0ffe5b11-d051-4285-b944-60e3a57590bc}</destination>
+			<destination>{a8fab80e-6bea-480b-977a-5b3d609c22e4}</destination>
+			<destination>{040bb75b-e277-4fc7-897b-b959bb014486}</destination>
+			<destination>{51e3e7c9-7ba7-4aed-bed3-6300f4176d43}</destination>
+			<destination>{62efb11e-707d-4585-ba1f-f9fb083594b5}</destination>
+			<destination>{db4e6536-8925-4296-80c8-fc11ddaf521d}</destination>
+			<destination>{9edec605-c6bf-4597-adaf-7d5842db1c34}</destination>
+			<destination>{c429868f-67e7-403f-b0f4-054443d73b9c}</destination>
+			<destination>{cab9ac2b-ef99-4e06-9f70-223d9ec2471b}</destination>
+			<destination>{1cfc7d76-d4c7-43da-a76b-17046cf1938f}</destination>
+			<destination>{687a6e25-32ff-45ab-91d4-ff7ebf31deb9}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{3119fbea-d7c5-4423-a0ee-700a3da1623e}">
+		<property name="name">
+			<value>semi-generative</value>
+		</property>
+	</object>
+	<object class="Tag" id="{647c3cec-8f8b-4cf2-a604-f7f030f1bb62}">
+		<property name="name">
+			<value>generative</value>
+		</property>
+	</object>
+	<object class="Tag" id="{ddf113f8-9d8b-4678-80b2-0d60eb0aa182}">
+		<property name="name">
+			<value>music</value>
+		</property>
+	</object>
+	<object class="Tag" id="{dbf607b0-6c1c-421a-8413-41adda5ae91f}">
+		<property name="name">
+			<value>multi-instrument</value>
+		</property>
+	</object>
+	<object class="Tag" id="{7373ff94-ca29-4cf7-bd63-5f5a5763d649}">
+		<property name="name">
+			<value>loop-region</value>
+		</property>
+	</object>
+	<object class="Tag" id="{ca19d12c-aafa-4700-afc3-a3cdf19a75e9}">
+		<property name="name">
+			<value>scatterer-instrument</value>
+		</property>
+	</object>
+	<object class="Tag" id="{9172293b-c636-4c52-b8e5-b775e10002a7}">
+		<property name="name">
+			<value>LFO</value>
+		</property>
+	</object>
+	<object class="Tag" id="{f9b747c8-4e79-400b-b996-69d2c99a0c60}">
+		<property name="name">
+			<value>multiband-EQ</value>
+		</property>
+	</object>
+	<object class="Tag" id="{0ffe5b11-d051-4285-b944-60e3a57590bc}">
+		<property name="name">
+			<value>Delay</value>
+		</property>
+	</object>
+	<object class="Tag" id="{a8fab80e-6bea-480b-977a-5b3d609c22e4}">
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+	</object>
+	<object class="Tag" id="{040bb75b-e277-4fc7-897b-b959bb014486}">
+		<property name="name">
+			<value>fade-in</value>
+		</property>
+	</object>
+	<object class="Tag" id="{51e3e7c9-7ba7-4aed-bed3-6300f4176d43}">
+		<property name="name">
+			<value>fade-out</value>
+		</property>
+	</object>
+	<object class="Tag" id="{62efb11e-707d-4585-ba1f-f9fb083594b5}">
+		<property name="name">
+			<value>probability</value>
+		</property>
+	</object>
+	<object class="Tag" id="{db4e6536-8925-4296-80c8-fc11ddaf521d}">
+		<property name="name">
+			<value>chorus</value>
+		</property>
+	</object>
+	<object class="Tag" id="{9edec605-c6bf-4597-adaf-7d5842db1c34}">
+		<property name="name">
+			<value>limiter</value>
+		</property>
+	</object>
+	<object class="Tag" id="{c429868f-67e7-403f-b0f4-054443d73b9c}">
+		<property name="name">
+			<value>return</value>
+		</property>
+	</object>
+	<object class="Tag" id="{cab9ac2b-ef99-4e06-9f70-223d9ec2471b}">
+		<property name="name">
+			<value>aux</value>
+		</property>
+	</object>
+	<object class="Tag" id="{1cfc7d76-d4c7-43da-a76b-17046cf1938f}">
+		<property name="name">
+			<value>pitch</value>
+		</property>
+	</object>
+	<object class="Tag" id="{687a6e25-32ff-45ab-91d4-ff7ebf31deb9}">
+		<property name="name">
+			<value>random</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{71b73947-1cb8-40a9-880e-4fda32234a8b}">
+		<property name="assetPath">
+			<value>Player Sounds/Footsteps/Armour/Heavy Armor Concrete Running 2_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.90605442176870743</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfca66db-97a1-4ab1-86fa-2dc1a6c6044c}</destination>
+		</relationship>
+	</object>
+</objects>
